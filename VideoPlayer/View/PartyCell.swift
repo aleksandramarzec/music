@@ -14,12 +14,7 @@ class PartyCell: UITableViewCell {
     @IBOutlet weak var videoPreviewImage: UIImageView!
     @IBOutlet weak var videoTitle: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-    
-    func updateUI(videoPlayer : VideoPlayer){
+    func updateUI(videoPlayer: VideoPlayer){
         videoTitle.text = videoPlayer.videoTitle
         let url = URL(string: videoPlayer.imageURL)!
         videoPreviewImage.kf.setImage(with: url)

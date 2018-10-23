@@ -75,6 +75,7 @@
 			children = (
 				1FC291CA2167434A00A2E005 /* Files */,
 				1FC291C72166BDE800A2E005 /* View */,
+				1FC291C62166BDE200A2E005 /* Model */,
 				1FC291C52166BD7400A2E005 /* Controller */,
 				1FC291B32166BB9800A2E005 /* AppDelegate.swift */,
 				1FC291B72166BB9800A2E005 /* Main.storyboard */,
@@ -88,8 +89,8 @@
 		1FC291C52166BD7400A2E005 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1FC291C62166BDE200A2E005 /* Model */,
 				1FC291B52166BB9800A2E005 /* MainVC.swift */,
+				1FC291CB2167CABC00A2E005 /* VideoVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,7 +98,7 @@
 		1FC291C62166BDE200A2E005 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1FC291CB2167CABC00A2E005 /* VideoVC.swift */,
+				1FC291D22167D62A00A2E005 /* VideoPlayer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				1FC291C82167434400A2E005 /* Autumn Free.ttf */,
-				1FC291D22167D62A00A2E005 /* VideoPlayer.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";

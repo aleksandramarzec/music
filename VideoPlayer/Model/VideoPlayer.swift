@@ -10,9 +10,9 @@ import Foundation
 
 class VideoPlayer {
     
-    var imageURL: String!
-    var videoURL: String!
-    var videoTitle: String!
+    var imageURL: String
+    var videoURL: String
+    var videoTitle: String
     
     init(imageURL: String, videoURL: String, videoTitle: String) {
         self.imageURL = imageURL
